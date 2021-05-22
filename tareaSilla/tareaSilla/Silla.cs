@@ -198,7 +198,7 @@ namespace tareaSilla
         }
         void loaded(object o, EventArgs e)
         {
-            GL.ClearColor(1.0f, 1.0f, 1.0f, 0.0f);
+            GL.ClearColor(245 / 255.0f, 228 / 255.0f, 189 / 255.0f, 0.0f);
             //texturas
             GL.Enable(EnableCap.Texture2D);
             GL.GenTextures(1,out texture);
