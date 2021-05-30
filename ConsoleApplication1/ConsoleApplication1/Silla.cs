@@ -13,6 +13,10 @@ namespace ConsoleApplication1
     class Silla
     {
         double angulo = 0.0;
+        double angulo1 = 0.0;
+        double angulo2 = 0.0;
+
+        double angulo3 = 0.0;
         Cubo cubo = new Cubo(0.5, 5, 0.5);
         Cubo cubo2 = new Cubo(6.0, 0.25, 6.0);
         Cubo cubo3 = new Cubo(5, 0.5, 0.5);
